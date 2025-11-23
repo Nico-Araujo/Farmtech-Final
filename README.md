@@ -1,8 +1,8 @@
 # 🌱 FarmTech Solutions - Sistema Integrado de Gestão Agrícola
 
-## 📋 Descrição do Projeto (Fase 7)
+## 📋 Descrição do Projeto
 
-Este projeto representa a consolidação final (Fase 7) do ecossistema FarmTech. Trata-se de uma plataforma Full Stack em Python que integra Backend, Frontend (Streamlit), Ciência de Dados, IoT e Visão Computacional em um único Dashboard interativo.
+Este projeto representa a consolidação final do ecossistema FarmTech. Trata-se de uma plataforma Full Stack em Python que integra Backend, Frontend (Streamlit), Ciência de Dados, IoT e Visão Computacional em um único Dashboard interativo.
 
 O objetivo é fornecer ao gestor agrícola uma ferramenta centralizada para o planejamento de plantio, controle de estoque, monitoramento de sensores em tempo real e segurança patrimonial via inteligência artificial.
 
@@ -12,10 +12,34 @@ O objetivo é fornecer ao gestor agrícola uma ferramenta centralizada para o pl
 
 ## 🎬 Vídeo Demonstrativo
 
-Confira a demonstração completa de todas as funcionalidades rodando em tempo real:
+Confira a demonstração completa de todas as funcionalidades:
+[CLIQUE AQUI PARA ASSISTIR AO VÍDEO NO YOUTUBE](Link vídeo não listado aqui)
 
-[CLIQUE AQUI PARA ASSISTIR AO VÍDEO NO YOUTUBE]
-(Link vídeo não listado aqui)
+📂 Estrutura de Arquivos
+
+A organização do projeto segue as melhores práticas de desenvolvimento, separando a lógica (Backend) da interface (Frontend):
+
+```text
+Farmtech_Final/
+│
+├── app.py                       # Arquivo Principal (Frontend Streamlit)
+├── requirements.txt             # Lista de dependências
+├── dados_sensores_simulados.csv # Base de dados histórica dos sensores
+│
+├── fases/                       # Módulos de Lógica (Backend)
+│   ├── __init__.py              # (Opcional, mas bom ter)
+│   ├── fase1_calc.py            # Lógica matemática e presets
+│   ├── fase2_db.py              # Conexão Oracle e JSON
+│   ├── fase3_iot.py             # Simulação de Sensores e Edge Computing
+│   ├── fase5_cloud.py           # Integração AWS
+│   ├── fase6_vision.py          # Processamento de Imagem (YOLO)
+│   └── dados_insumos.json       # Banco de dados local (JSON)
+│
+└── assets/                      # Arquivos estáticos
+    ├── best.pt                  # Modelo de I.A. Treinado
+    └── teste.jpeg               # Imagem de exemplo para testes
+````
+
 
 ## 🛠️ Arquitetura e Funcionalidades Integradas
 
@@ -62,33 +86,6 @@ O projeto foi estruturado de forma modular para garantir organização e escalab
 - Objetivo: Segurança do trabalho e patrimonial.
 
 - Funcionalidade: O modelo analisa imagens da plantação e detecta automaticamente a presença de Agricultores (Pessoas) e Maquinário (Tratores), permitindo o controle de acesso e segurança da área.
-
-📂 Estrutura de Arquivos
-
-A organização do projeto segue as melhores práticas de desenvolvimento, separando a lógica (Backend) da interface (Frontend):
-
-
-
-```text
-Farmtech_Final/
-│
-├── app.py                       # Arquivo Principal (Frontend Streamlit)
-├── requirements.txt             # Lista de dependências
-├── dados_sensores_simulados.csv # Base de dados histórica dos sensores
-│
-├── fases/                       # Módulos de Lógica (Backend)
-│   ├── __init__.py              # (Opcional, mas bom ter)
-│   ├── fase1_calc.py            # Lógica matemática e presets
-│   ├── fase2_db.py              # Conexão Oracle e JSON
-│   ├── fase3_iot.py             # Simulação de Sensores e Edge Computing
-│   ├── fase5_cloud.py           # Integração AWS
-│   ├── fase6_vision.py          # Processamento de Imagem (YOLO)
-│   └── dados_insumos.json       # Banco de dados local (JSON)
-│
-└── assets/                      # Arquivos estáticos
-    ├── best.pt                  # Modelo de I.A. Treinado
-    └── teste.jpeg               # Imagem de exemplo para testes
-````
 
 ## 🚀 Como Rodar o Projeto Localmente
 
