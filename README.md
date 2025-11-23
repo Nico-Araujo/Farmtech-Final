@@ -67,7 +67,7 @@ O projeto foi estruturado de forma modular para garantir organização e escalab
 
 A organização do projeto segue as melhores práticas de desenvolvimento, separando a lógica (Backend) da interface (Frontend):
 
-Farmtech_Final/
+'''Farmtech_Final/
 │
 ├── app.py                       # Arquivo Principal (Frontend Streamlit)
 ├── requirements.txt             # Lista de dependências
@@ -84,7 +84,7 @@ Farmtech_Final/
 │
 └── assets/                      # Arquivos estáticos
     ├── best.pt                  # Modelo de I.A. Treinado
-    └── teste.jpeg               # Imagem de exemplo para testes
+    └── teste.jpeg               # Imagem de exemplo para testes'''
 
 ## 🚀 Como Rodar o Projeto Localmente
 
