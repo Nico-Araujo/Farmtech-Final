@@ -78,7 +78,7 @@ def inserir_insumo(nome, tipo, quantidade, validade):
         finally:
             desconectar_oracle(conn)
 
-    # --- CENÁRIO 2: SALVAR NO JSON (Modo Offline - O que você precisa pro vídeo) ---
+    # --- CENÁRIO 2: SALVAR NO JSON (Modo Offline) ---
     try:
         # 1. Carrega dados existentes
         lista_dados = []
@@ -103,4 +103,5 @@ def inserir_insumo(nome, tipo, quantidade, validade):
         return "Sucesso: Item salvo localmente (Modo Offline)!"
         
     except Exception as e:
+
         return f"Erro ao salvar no JSON: {str(e)}"
