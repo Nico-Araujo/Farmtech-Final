@@ -120,4 +120,4 @@ Dashboard Principal
 
 Monitoramento de Segurança (I.A.)
 
-![Visão Computacional](https://github.com/Nico-Araujo/Farmtech-Final/blob/0c6e8e401c65b1f467d7f595ce75fcadf432a337/assets/farmtech_vs_pessoas.jpeg)
+![Visão Computacional](https://github.com/Nico-Araujo/Farmtech-Final/blob/553c57a8441188035a8522063343d2039e647526/assets/farmtech_vs_pessoas.jpg)
