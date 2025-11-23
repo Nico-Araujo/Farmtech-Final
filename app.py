@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- CSS (ESTILO PERSONALIZADO ATUALIZADO) ---
+# --- CSS ---
 st.markdown("""
 <style>
     /* 1. Cor de Fundo Geral (#00643e) */
@@ -69,7 +69,7 @@ st.markdown("""
 # --- BARRA LATERAL ---
 with st.sidebar:
     try:
-        # MUDANÇA DE LOGO: Ícone de folha/natureza
+        # LOGO: Ícone de folha/natureza
         st.image("https://cdn-icons-png.flaticon.com/512/2913/2913520.png", width=100)
     except:
         st.write("🌱")
@@ -109,7 +109,6 @@ elif menu == "🌱 Fase 1: Plantio":
     st.header("🌱 Planejamento de Plantio")
     st.markdown("---")
     
-    # ESTES SÃO OS DADOS QUE VOCÊ PERGUNTOU!
     presets = {
         "Soja": {"qtd": 0.50, "insumo": "Fertilizante NPK"},
         "Milho": {"qtd": 0.80, "insumo": "Ureia"},
@@ -199,7 +198,7 @@ elif menu == "📡 Fase 3: IoT & Monitoramento":
     ph = float(dados.get('solo_ph', 0))
 
     col1, col2, col3, col4 = st.columns(4)
-    # Cores agora serão AMARELAS (letras grandes) em fundo VERDE
+    # Cores
     col1.metric("🌡️ Temp. Motor", f"{temp:.1f} °C")      
     col2.metric("〰️ Vibração", f"{vibra:.3f} mm/s")    
     col3.metric("💧 Umidade Solo", f"{umid:.1f} %")       
@@ -244,4 +243,5 @@ elif menu == "👁️ Fase 6: Visão Computacional":
                     if "✅" in txt:
                         st.success(txt)
                     else:
+
                         st.warning(txt)
