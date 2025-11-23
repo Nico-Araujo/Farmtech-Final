@@ -118,6 +118,6 @@ Dashboard Principal
 
 Monitoramento de Segurança (I.A.)
 
-![Visão Computacional]([INSIRA O LINK OU ARQUIVO DE UMA IMAGEM DA TELA FASE 6 AQUI])
+![Visão Computacional]([https://github.com/Nico-Araujo/Farmtech-Final/blob/0c6e8e401c65b1f467d7f595ce75fcadf432a337/assets/farmtech_vs_pessoas.jpeg])
 
 Projeto desenvolvido para a disciplina de Disruptive Architectures: IOT, IOB & Generative AI - FIAP 2024.
