@@ -70,7 +70,6 @@ A organização do projeto segue as melhores práticas de desenvolvimento, separ
 
 
 ```text
-
 Farmtech_Final/
 │
 ├── app.py                       # Arquivo Principal (Frontend Streamlit)
@@ -89,8 +88,7 @@ Farmtech_Final/
 └── assets/                      # Arquivos estáticos
     ├── best.pt                  # Modelo de I.A. Treinado
     └── teste.jpeg               # Imagem de exemplo para testes
-
-
+````
 
 ## 🚀 Como Rodar o Projeto Localmente
 
