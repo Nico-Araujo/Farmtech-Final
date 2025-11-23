@@ -77,7 +77,7 @@ O projeto foi estruturado de forma modular para garantir organização e escalab
 
 - Evidência: O log do disparo e o status da conexão AWS são exibidos no próprio Dashboard.
 
-![AWS](https://github.com/Nico-Araujo/Farmtech-Final/blob/7fcc287ab8c035874f944d673257c5375348615d/assets/farmtech_dashboard_aws.jpeg)
+![AWS](https://github.com/Nico-Araujo/Farmtech-Final/blob/7874ef123cb7477f39c62b463daed45c701f7c80/assets/farmtech_dashboard_aws.jpg)
 <br><br>
 
 ### 👁️ Fase 6: Visão Computacional (Segurança)
@@ -116,8 +116,8 @@ streamlit run app.py
 
 Dashboard Principal
 
-![Dashboard Home](https://github.com/Nico-Araujo/Farmtech-Final/blob/ca2cd13eb085407ca5d3e528a4d70df1a5578934/assets/farmtech_dashboard.jpeg)
+![Dashboard Home](https://github.com/Nico-Araujo/Farmtech-Final/blob/7874ef123cb7477f39c62b463daed45c701f7c80/assets/farmtech_dashboard.jpg)
 
 Monitoramento de Segurança (I.A.)
 
-![Visão Computacional](https://github.com/Nico-Araujo/Farmtech-Final/blob/553c57a8441188035a8522063343d2039e647526/assets/farmtech_vs_pessoas.jpg)
+![Visão Computacional](https://github.com/Nico-Araujo/Farmtech-Final/blob/7874ef123cb7477f39c62b463daed45c701f7c80/assets/farmtech_vs_pessoas.jpg)
