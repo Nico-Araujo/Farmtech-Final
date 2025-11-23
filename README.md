@@ -69,22 +69,22 @@ A organização do projeto segue as melhores práticas de desenvolvimento, separ
 
 Farmtech_Final/
 │
-├── app.py                      # Arquivo Principal (Frontend Streamlit)
-├── requirements.txt            # Lista de dependências
+├── app.py                       # Arquivo Principal (Frontend Streamlit)
+├── requirements.txt             # Lista de dependências
 ├── dados_sensores_simulados.csv # Base de dados histórica dos sensores
 │
-├── fases/                      # Módulos de Lógica (Backend)
-│   ├── fase1_calc.py           # Lógica matemática e presets
-│   ├── fase2_db.py             # Conexão Oracle e JSON
-│   ├── fase3_iot.py            # Simulação de Sensores e Edge Computing
-│   ├── fase5_cloud.py          # Integração AWS
-│   ├── fase6_vision.py         # Processamento de Imagem (YOLO)
-│   └── dados_insumos.json      # Banco de dados local (JSON)
+├── fases/                       # Módulos de Lógica (Backend)
+│   ├── __init__.py              # (Opcional, mas bom ter)
+│   ├── fase1_calc.py            # Lógica matemática e presets
+│   ├── fase2_db.py              # Conexão Oracle e JSON
+│   ├── fase3_iot.py             # Simulação de Sensores e Edge Computing
+│   ├── fase5_cloud.py           # Integração AWS
+│   ├── fase6_vision.py          # Processamento de Imagem (YOLO)
+│   └── dados_insumos.json       # Banco de dados local (JSON)
 │
-└── assets/                     # Arquivos estáticos
-    ├── best.pt                 # Modelo de I.A. Treinado
-    └── teste.jpeg              # Imagem de exemplo para testes
-
+└── assets/                      # Arquivos estáticos
+    ├── best.pt                  # Modelo de I.A. Treinado
+    └── teste.jpeg               # Imagem de exemplo para testes
 
 ## 🚀 Como Rodar o Projeto Localmente
 
