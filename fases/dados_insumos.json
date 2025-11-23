@@ -1,0 +1,56 @@
+[
+    {
+        "nome": "FERTILIZANTE NPK 10-10-10",
+        "tipo": "Fertilizante",
+        "quantidade": 150,
+        "validade": "2025-12-31"
+    },
+    {
+        "nome": "SEMENTE DE SOJA TRANSGÊNICA",
+        "tipo": "Grão",
+        "quantidade": 500,
+        "validade": "2024-11-20"
+    },
+    {
+        "nome": "GLIFOSATO (HERBICIDA)",
+        "tipo": "Defensivo",
+        "quantidade": 40,
+        "validade": "2026-05-15"
+    },
+    {
+        "nome": "UREIA AGRÍCOLA",
+        "tipo": "Fertilizante",
+        "quantidade": 300,
+        "validade": "2025-08-10"
+    },
+    {
+        "nome": "SEMENTE DE MILHO HÍBRIDO",
+        "tipo": "Grão",
+        "quantidade": 200,
+        "validade": "2025-02-28"
+    },
+    {
+        "nome": "CALCÁRIO DOLOMÍTICO",
+        "tipo": "Fertilizante",
+        "quantidade": 1000,
+        "validade": "2027-01-01"
+    },
+    {
+        "nome": "FUNGICIDA PROTETOR",
+        "tipo": "Defensivo",
+        "quantidade": 25,
+        "validade": "2025-06-30"
+    },
+    {
+        "nome": "ADUBO ORGÂNICO",
+        "tipo": "Fertilizante",
+        "quantidade": 80,
+        "validade": "2024-12-15"
+    },
+    {
+        "nome": "FEIJÃO",
+        "tipo": "Grão",
+        "quantidade": 10,
+        "validade": "2025-11-23"
+    }
+]

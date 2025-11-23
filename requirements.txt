@@ -1,0 +1,6 @@
+streamlit
+pandas
+cx_Oracle
+ultralytics
+Pillow
+boto3
