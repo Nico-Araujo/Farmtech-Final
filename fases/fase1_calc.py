@@ -34,10 +34,8 @@ def calcular_qtd_insumos(area_cultivo, qtd_por_m2, num_linhas):
     if area_cultivo <= 0 or qtd_por_m2 <= 0:
         return 0.0
         
-    total_quantity = area_cultivo * qtd_por_m2 # Removi 'rows' da multiplicação pois geralmente é por m², mas mantive sua lógica original se quiser usar
-    # Nota: No seu código original vc multiplicava por rows. 
-    # Se a qtd é "por m²", multiplicar por linhas pode duplicar o valor dependendo da lógica agronômica.
-    # Vou manter sua lógica original abaixo:
+    total_quantity = area_cultivo * qtd_por_m2 
     total_quantity = area_cultivo * qtd_por_m2 * num_linhas
     
+
     return total_quantity
