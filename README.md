@@ -13,7 +13,7 @@ O objetivo é fornecer ao gestor agrícola uma ferramenta centralizada para o pl
 ## 🎬 Vídeo Demonstrativo
 
 Confira a demonstração completa de todas as funcionalidades:
-[CLIQUE AQUI PARA ASSISTIR AO VÍDEO NO YOUTUBE](Link vídeo não listado aqui)
+[CLIQUE AQUI PARA ASSISTIR AO VÍDEO NO YOUTUBE](https://www.youtube.com/watch?v=Bp-qxFiPct8)
 
 📂 Estrutura de Arquivos
 
