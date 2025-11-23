@@ -10,58 +10,58 @@ O objetivo é fornecer ao gestor agrícola uma ferramenta centralizada para o pl
 - <a href="https://www.linkedin.com/in/nicolas--araujo/">Nicolas Antonio Silva Araujo</a> 
 - <a href="https://www.linkedin.com/in/vitoria-bagatin-31ba88266/">Vitória Pereira Bagatin</a> 
 
-🎬 Vídeo Demonstrativo
+## 🎬 Vídeo Demonstrativo
 
 Confira a demonstração completa de todas as funcionalidades rodando em tempo real:
 
 [CLIQUE AQUI PARA ASSISTIR AO VÍDEO NO YOUTUBE]
 (Link vídeo não listado aqui)
 
-🛠️ Arquitetura e Funcionalidades Integradas
+## 🛠️ Arquitetura e Funcionalidades Integradas
 
 O projeto foi estruturado de forma modular para garantir organização e escalabilidade. Abaixo, o detalhamento de cada fase integrada:
 
-## 🌱 Fase 1: Planejamento Inteligente
+### 🌱 Fase 1: Planejamento Inteligente
 
-Calculadora agronômica que auxilia na definição de área de plantio e quantidade de insumos.
+- Calculadora agronômica que auxilia na definição de área de plantio e quantidade de insumos.
 
-Destaque: Implementação de presets inteligentes. Ao selecionar a cultura (Soja, Milho, etc.), o sistema ajusta automaticamente a recomendação de insumos (kg/m²) baseada em boas práticas agronômicas.
+- Destaque: Implementação de presets inteligentes. Ao selecionar a cultura (Soja, Milho, etc.), o sistema ajusta automaticamente a recomendação de insumos (kg/m²) baseada em boas práticas agronômicas.
 
-## 🗄️ Fase 2: Banco de Dados Híbrido (Persistência)
+### 🗄️ Fase 2: Banco de Dados Híbrido (Persistência)
 
-Sistema CRUD (Create, Read, Update, Delete) para gestão de estoque de insumos.
+- Sistema CRUD (Create, Read, Update, Delete) para gestão de estoque de insumos.
 
-Destaque Técnico: Arquitetura Híbrida/Resiliente.
+- Destaque Técnico: Arquitetura Híbrida/Resiliente.
 
-Modo Online: Preparado para conexão com Oracle Database (Nuvem).
+- Modo Online: Preparado para conexão com Oracle Database (Nuvem).
 
-Modo Offline (Fallback): Caso a conexão falhe, o sistema alterna automaticamente para um banco de dados local em JSON (dados_insumos.json), permitindo leitura e escrita mesmo sem internet.
+- Modo Offline (Fallback): Caso a conexão falhe, o sistema alterna automaticamente para um banco de dados local em JSON (dados_insumos.json), permitindo leitura e escrita mesmo sem internet.
 
-## 📡 Fase 3: IoT e Monitoramento (Edge Computing)
+### 📡 Fase 3: IoT e Monitoramento (Edge Computing)
 
-Dashboard de telemetria que simula a leitura de sensores de campo (Umidade do Solo, pH) e sensores de maquinário (Vibração, Temperatura).
+- Dashboard de telemetria que simula a leitura de sensores de campo (Umidade do Solo, pH) e sensores de maquinário (Vibração, Temperatura).
 
-Lógica de Automação: O sistema decide sozinho se deve ligar a irrigação baseada na umidade do solo.
+- Lógica de Automação: O sistema decide sozinho se deve ligar a irrigação baseada na umidade do solo.
 
-Segurança Crítica: Implementamos uma regra de "Parada de Emergência". Se o motor da bomba superaquecer (>55°C) ou vibrar excessivamente, o sistema bloqueia a irrigação para proteger o equipamento.
+- Segurança Crítica: Implementamos uma regra de "Parada de Emergência". Se o motor da bomba superaquecer (>55°C) ou vibrar excessivamente, o sistema bloqueia a irrigação para proteger o equipamento.
 
-## ☁️ Fase 5: Cloud Computing (AWS)
+### ☁️ Fase 5: Cloud Computing (AWS)
 
-Integração com serviços de nuvem para mensageria crítica.
+- Integração com serviços de nuvem para mensageria crítica.
 
-Funcionalidade: Quando a Fase 3 detecta um erro crítico (ex: falha na bomba), o sistema aciona o módulo AWS para disparar alertas via SNS (Simple Notification Service).
+- Funcionalidade: Quando a Fase 3 detecta um erro crítico (ex: falha na bomba), o sistema aciona o módulo AWS para disparar alertas via SNS (Simple Notification Service).
 
-Evidência: O log do disparo e o status da conexão AWS são exibidos no próprio Dashboard.
+- Evidência: O log do disparo e o status da conexão AWS são exibidos no próprio Dashboard.
 
-[INSIRA AQUI UM PRINT DA TELA DO SEU DASHBOARD MOSTRANDO O LOG DA AWS]
+![AWS]()
 
 ## 👁️ Fase 6: Visão Computacional (Segurança)
 
-Sistema de monitoramento visual utilizando Inteligência Artificial (YOLOv8).
+- Sistema de monitoramento visual utilizando Inteligência Artificial (YOLOv8).
 
-Objetivo: Segurança do trabalho e patrimonial.
+- Objetivo: Segurança do trabalho e patrimonial.
 
-Funcionalidade: O modelo analisa imagens da plantação e detecta automaticamente a presença de Agricultores (Pessoas) e Maquinário (Tratores), permitindo o controle de acesso e segurança da área.
+- Funcionalidade: O modelo analisa imagens da plantação e detecta automaticamente a presença de Agricultores (Pessoas) e Maquinário (Tratores), permitindo o controle de acesso e segurança da área.
 
 📂 Estrutura de Arquivos
 
@@ -88,27 +88,27 @@ Farmtech_Final/
 
 ## 🚀 Como Rodar o Projeto Localmente
 
-Pré-requisitos: Python 3.8+ instalado.
+- Pré-requisitos: Python 3.8+ instalado.
 
-Clone o repositório:
+- Clone o repositório:
 
 git clone [repositório](https://github.com/Nico-Araujo/Farmtech-Final)
 cd Farmtech_Final
 
 
-Instale as dependências:
+- Instale as dependências:
 
 pip install -r requirements.txt
 
 
-Execute a aplicação:
+- Execute a aplicação:
 
 streamlit run app.py
 
 
-Caso o comando acima não funcione no Windows, tente: python -m streamlit run app.py
+- Caso o comando acima não funcione no Windows, tente: python -m streamlit run app.py
 
-Acesse: O navegador abrirá automaticamente no endereço local (geralmente http://localhost:8501).
+- Acesse: O navegador abrirá automaticamente no endereço local (geralmente http://localhost:8501).
 
 ## 📊 Prints da Aplicação
 
@@ -119,5 +119,3 @@ Dashboard Principal
 Monitoramento de Segurança (I.A.)
 
 ![Visão Computacional](https://github.com/Nico-Araujo/Farmtech-Final/blob/0c6e8e401c65b1f467d7f595ce75fcadf432a337/assets/farmtech_vs_pessoas.jpeg)
-
-Projeto desenvolvido para a disciplina de Disruptive Architectures: IOT, IOB & Generative AI - FIAP 2024.
