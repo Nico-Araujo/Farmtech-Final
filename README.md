@@ -114,10 +114,10 @@ Acesse: O navegador abrirá automaticamente no endereço local (geralmente http:
 
 Dashboard Principal
 
-![Dashboard Home]([INSIRA O LINK OU ARQUIVO DE UMA IMAGEM DA TELA HOME AQUI])
+![Dashboard Home](https://github.com/Nico-Araujo/Farmtech-Final/blob/ca2cd13eb085407ca5d3e528a4d70df1a5578934/assets/farmtech_dashboard.jpeg)
 
 Monitoramento de Segurança (I.A.)
 
-![Visão Computacional]([https://github.com/Nico-Araujo/Farmtech-Final/blob/0c6e8e401c65b1f467d7f595ce75fcadf432a337/assets/farmtech_vs_pessoas.jpeg])
+![Visão Computacional](https://github.com/Nico-Araujo/Farmtech-Final/blob/0c6e8e401c65b1f467d7f595ce75fcadf432a337/assets/farmtech_vs_pessoas.jpeg)
 
 Projeto desenvolvido para a disciplina de Disruptive Architectures: IOT, IOB & Generative AI - FIAP 2024.
