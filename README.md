@@ -77,7 +77,8 @@ O projeto foi estruturado de forma modular para garantir organização e escalab
 
 - Evidência: O log do disparo e o status da conexão AWS são exibidos no próprio Dashboard.
 
-![AWS](https://github.com/Nico-Araujo/Farmtech-Final/blob/7fcc287ab8c035874f944d673257c5375348615d/assets/farmtech_dashboard_aws.jpeg)<br><br>
+![AWS](https://github.com/Nico-Araujo/Farmtech-Final/blob/7fcc287ab8c035874f944d673257c5375348615d/assets/farmtech_dashboard_aws.jpeg)
+<br><br>
 
 ### 👁️ Fase 6: Visão Computacional (Segurança)
 
